@@ -1,0 +1,291 @@
+body{
+    width: 60%;
+padding-left: 20%;
+   
+ 
+    
+.first {
+    display: flex;
+    height: 400px;
+max-width: 100%;
+        .first-box1 {
+    background-color: black;
+   width: 30%;
+z-index: 2;
+   
+}
+
+.first-box2 {
+width: 70%;
+    display: inline;
+    z-index: 1;
+    
+
+}
+.first-box2 img{float: left;
+    vertical-align: middle;}
+
+
+.img{opacity: 0;}
+
+#img1{width: 65%;}
+#img2{width: 35%;}
+#img3{width: 80%;}
+#img4{width: 20%;}
+
+.first p::first-line {
+
+    color: white;
+
+}
+
+.first-box1 p{
+    font-size: 8vh;
+    color: yellow;
+  
+  padding-left: 30%;
+    width: 150%;
+    
+     opacity: 0;
+}
+
+
+
+.first-box1 span, .fourth-box1 span{
+    display: block;
+   height: 4px;
+    background-color:  blue;
+    
+    width: 50%;
+    float: left;
+    border: none;
+    
+}
+}
+
+.second {
+    height: 100px;
+    margin: -70px 0px 40px 0px;
+    #Text{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    
+}
+    
+}
+
+.third{
+   
+max-width: 100%;
+  height: 1200px;
+    .third-box1{
+    max-width: 100%;
+  
+   position: relative;   
+
+}
+    .third img{
+ float: left;
+    vertical-align: middle;
+    height: auto;
+    width: 50%;
+     height: 300px;
+}
+    .img-text1 h3, .img-text2 h3, .img-text3 h3, .img-text4 h3,.img-text5 h3, .img-text6 h3, .img-text7 h3, .img-text8 h3{
+position: absolute;
+top: 200px;
+left: 2%;
+}
+
+.img-text2 h3, .img-text4 h3, .img-text6 h3, .img-text8 h3{left: 52%;}
+.img-text3 h3, .img-text4 h3{top:500px;}
+.img-text5 h3, .img-text6 h3{top: 800px;}
+.img-text7 h3, .img-text8 h3{top: 1100px;}
+}
+
+.boxing {
+padding-top: 5%;
+
+}
+.fourth, .fifth{
+
+    display: flex;
+    justify-content: space-around;
+    
+  
+    
+}
+.fourth-box1, .fifth-box1{
+  width: 50%;
+   
+  
+}
+
+.fourth-box1 span{
+   width: 80%;   
+}
+
+.fourth-box1 h2{
+    font-size: 4vw;   
+ margin-left: 50%;
+    
+ 
+}
+#about{
+    //opacity: 0;
+}
+
+.fourth-box2, .fifth-box2{
+    width: 50%;
+   
+   
+}
+.fourth-box2 p{
+      
+    overflow-y: auto;
+
+    word-wrap: break-word;
+    height: 300px;
+    
+}
+
+.fifth-box1{
+    background-color: slateblue;
+    height: 300px;
+}
+.fifth-box1 h2{
+    color: white;
+    margin: 25% 0 0 40%; 
+}
+.fifth-box2{
+    height: 300px;
+}
+.fifth-box2 ol li{
+    padding: 0px 0 5px 0;
+    
+}
+hr{
+ 
+   
+    background-color:  grey;
+    margin-left: -25px;
+   
+   
+    
+}
+.fifth-box2 ol{
+    list-style-type: decimal-leading-zero;
+}
+
+
+/*hoveriant*/
+
+ .img-text1:hover .color, .img-text2:hover .color{
+    opacity: 1;
+    transition: 0.3s;
+    background-color:  rgba(0, 140, 255, 0.84);
+    color: white;
+  
+}
+ .img-text1 .color, .img-text2 .color 
+{
+   width: 50%;
+    height: 300px;
+    opacity: 0;
+    position: absolute;
+   
+} 
+ .color h2{
+margin-left: 30%;    
+}
+ .color p{
+    margin: 0 10% 0 10%;
+     overflow-y: auto;
+    font-size: 1.5vh;
+     
+
+    word-wrap: break-word;
+}
+  .img-text1:hover h3,  .img-text2:hover h3{
+    visibility: hidden;
+}
+.img-text2 .color {
+  
+    transform: translateX(100%);
+}
+
+
+.sixth{
+    
+  background-image: url(/foto/foto1.jpg);
+  display: flex;
+    height: 500px;
+    width: auto;
+    h3{
+    font-size: 7vh;
+    color: white;
+   padding-top: 15%;
+    margin-left: 35%;
+   
+}
+    h3::first-line{
+    color: yellow;
+   
+}
+    h3::last-child{
+    margin-left: 20px;
+    color: blue;
+}
+    
+    .sixth_arrow{
+    padding-left: 8vw;
+margin-top: 0%;}
+
+}
+
+
+.seventh{
+    background-color: blueviolet;
+display: flex;
+    width: 100%;
+.seventh-box1{
+    width: 50%;
+   
+    height: 400px;
+   
+}
+    .seventh-box1 h3{
+    
+    margin:10% 10% 0 0;
+    padding: 20% 20% 0 40%;
+    height: 150px;
+     background-color: blue;
+    color: white;
+    
+}
+.seventh-box1 span{
+    color: yellow;
+}
+}
+
+
+.form-box{
+    transform: translateY(30%);
+    height: 200px;
+    
+}
+#stroka{
+    width: 90%;
+}
+.btn-solid{
+    background-color:  yellow;
+    width: 10vh;
+    height: 30px;
+    margin-top: 20px;
+    transform: translateX(20%);
+}
+
+}
+
+
